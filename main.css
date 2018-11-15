@@ -1,0 +1,19 @@
+.element {
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    border-bottom-color: red;
+    border-left-color: orange;
+    border-top-color: blue;
+    border-right-color: pink;
+    border-style: solid;
+    border-width: 20px;
+    margin: 25px;
+   
+    transition-duration: 1s;
+}
+
+.element:hover {
+    transform: translate(100%);
+    transition-duration: 1s;
+}
